@@ -20,10 +20,10 @@ You can configure the installation by adjusting the values.yaml or by providing 
 The following options are available in the values.yaml:
 
 environment_variables:
-    host        : The endpoint of the Postgres database
-    database    : The name of the database
-    user        : The username of the user configured in the database
-    password    : The password of the user
+* host        : The endpoint of the Postgres database
+* database    : The name of the database
+* user        : The username of the user configured in the database
+* password    : The password of the user
 
 If configured correctly you should see the following message:
 
