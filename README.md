@@ -27,10 +27,10 @@ environment_variables:
 
 If configured correctly you should see the following message:
 
-Connecting to the PostgreSQL database...
-PostgreSQL database version:
-('PostgreSQL version number, compiled by Visual C++ build 1914, 64-bit',)
-Database connection closed.
+    Connecting to the PostgreSQL database...
+    PostgreSQL database version:
+    ('PostgreSQL version number, compiled by Visual C++ build 1914, 64-bit',)
+    Database connection closed.
 
 ### Usage
 
@@ -46,17 +46,17 @@ The connect() function raises the DatabaseError exception if an error occurred.
 
 For example, if your host is not accessible, the program will output the following message:
 
-Connecting to the PostgreSQL database...
-could not translate host name "localhosts" to address: Unknown host
-Code language: Shell Session (shell)
+    Connecting to the PostgreSQL database...
+    could not translate host name "localhosts" to address: Unknown host
+    Code language: Shell Session (shell)
 
 The following displays error message when you change the database to a database that does not exist e.g., supplier:
 
-Connecting to the PostgreSQL database...
-FATAL: database "supplier" does not exist
-Code language: Shell Session (shell)
+    Connecting to the PostgreSQL database...
+    FATAL: database "supplier" does not exist
+    Code language: Shell Session (shell)
 
 If you change the user to a user that does not exist, it will not be authenticated successfully as follows:
 
-Connecting to the PostgreSQL database...
-FATAL: password authentication failed for user ""
+    Connecting to the PostgreSQL database...
+    FATAL: password authentication failed for user ""
